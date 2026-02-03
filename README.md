@@ -6,6 +6,7 @@
 # 一、背景分析与结果展示
 ## 1.1 开发背景
 我是 [@马哥python说](https://github.com/mashukui)，一枚10年+程序猿，现全职独立开发。
+<img width="1079" height="228" alt="weibo_slogon" src="https://github.com/user-attachments/assets/1146d83c-e79f-4426-a837-20fdbd7a2bc3" />
 
 微博作为中国最具影响力的社交媒体平台之一，以其实时性和庞大的KOL用户群体，成为舆论爆发和信息传播的首选阵地。之前，为了满足不同的数据需求，我曾分别开发了针对关键词搜索的“[爬微博搜索软件](https://github.com/mashukui/weibo_search_pc_tool)”、针对特定博主的“[爬微博博主软件](https://github.com/mashukui/weibo_user_post_tool)”以及针对微博评论的“[爬微博评论软件](https://github.com/mashukui/weibo_comment_pc_tool)”。
 
@@ -139,13 +140,11 @@ def get_logger(self):
                                         encoding='utf-8')
 ```
 # 三、功能与使用
-## 3.1 填写cookie
-开始采集前，先把自己的cookie值填入cookie.txt文件。
+## 3.1 一键配置cookie
+开始采集前，先用内置的《cookie小工具》自动配置好cookie。
+![4bffc01d81a41633019f25f9ec6c27d0](https://github.com/user-attachments/assets/079b6231-a6ca-4d0e-80ce-3dc62377e967)
 
-pc端cookie获取说明：
-![cookie获取方法](https://files.mdnice.com/user/32110/de061db2-a7ea-4a42-8393-b2d4970e8205.png)
- 
-然后把复制的cookie值填写到当前文件夹的cookie.txt文件中。
+这样，获取到的cookie值就自动写入cookie.txt文件中了，告别繁琐的手动获取。
 ## 3.2 软件登录
 用户登录界面：需要登录。
 ## 3.3 启动采集
@@ -166,12 +165,16 @@ pc端cookie获取说明：
 季卡：使用期限3个月，399元。季卡可多次购买。适合中期采集需求
 年卡：使用期限1年，799元。年卡可多次购买。适合长期采集需求
 ```
-**1）付费方式一：（手动，付费后加我微信（493882434）对接卡密）**
+**方式一：自助开通（推荐）**
+
+开通入口：https://mgnb.pro/product/weibo
+
+**方式二：自助开通**
+
+开通入口：https://kjyjf.xetlk.com/s/1x4Q4F
+
+**方式三：手动开通，付费后加v（493882434）对接**
 <img width="2324" height="604" alt="收款码v5" src="https://github.com/user-attachments/assets/5e92edbd-625c-41dd-bcdc-78600eb5c535" />
-
-**2）付费方式二：（自动， 自己付费自己拿卡密，全程无需加v对接）**
-
-自助开通入口：https://kjyjf.xetlk.com/s/1x4Q4F
 
 ## 4.2 一机一码
 为防止软件被恶意转卖，采用一机一码机制，一个卡密只能在一台电脑运行、不可多电脑运行。
